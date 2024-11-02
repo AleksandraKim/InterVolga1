@@ -1,0 +1,80 @@
+@import '../Fonts/fonts.css';
+
+
+.TextField__main{
+    box-sizing: border-box;
+    padding-top: 20px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    height: 800px;
+}
+.TextField{
+    width: 50%;
+    position: relative;
+    width: 90%;
+    margin: 10px auto;
+}
+.TextField_part{
+    margin-top: 25px;
+}
+.TextField_data-span{
+    position: absolute;
+    left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.TextField_input{
+    margin-top: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.TextField_person-span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.TextField_passport-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.TextField_buttons{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.TextField_button{
+   width: 45%;
+    border-radius: 60px;
+    padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(123, 186, 163);
+    background-color: rgb(161, 200, 170);
+}
+.TextField_button-not{
+    width: 45%;
+    border-radius: 60px;
+    padding: 10px 15px;
+    color: rgb(117, 140, 122);
+    border: 1px solid rgb(123, 186, 163);
+}
+.TextField_button:hover,.TextField_button:active{
+    background-color: rgb(26, 59, 26);
+    border: 1px solid bisque;
+    color: aliceblue;
+}
+.TextField_button-not:hover{
+    background-color: none; 
+}

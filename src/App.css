@@ -1,0 +1,22 @@
+@import './Components/Reset/reset.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.app {
+  text-align: center;
+  height: 1000px;
+  width: 100%;
+  transition: background-color 0.5s, color 0.5s;
+  }
+  .app.light {
+  background-color: none;
+  color: #000000;
+  }
+  .app.dark {
+  background-color: #050009d4;
+  color: #ffffff;
+  }
+  .app-header {
+  padding: 20px;
+  }
